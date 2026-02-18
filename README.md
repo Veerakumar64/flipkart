@@ -1,2 +1,2 @@
 # flipkart
-create a flipkart interface using HTML and 
+create a flipkart interface using HTML and CSS

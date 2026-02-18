@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<title>Flipkart Site Recreation</title>
+<style>
+body
+{
+padding:0;
+margin:0;
+}
+
+header
+{
+background-color:#0080ff;
+width:100%;
+height:120px;
+display:grid;
+grid-template-columns:30% auto;
+}
+.na1
+{
+display:grid;
+grid-template-columns:64% 20%;
+padding-top:15px;
+padding-left:320px;
+}
+.na2
+{
+padding-top:30px;
+}
+.na3
+{
+display:grid;
+grid-template-columns:auto auto auto auto auto auto auto;
+margin-left:250px;
+background-color:#0080ff;
+}
+
+.he1
+{
+font-size:25px;
+color:white;
+font-family:Britannic Bold;
+font-style:italic;
+
+}
+
+#im1
+{
+width:40px;
+height:40px;
+padding-top:13px;
+}
+
+.i1
+{
+width:700px;
+height:40px;
+font-family:Footlight MT Light;
+border-radius:3px solid white;
+}
+.i2
+{
+width:90px;
+height:40px;
+border:1px solid blue;
+background-color:#0052cc;
+border-radius:3px;
+font-family:Segoe UI Black;
+color:white;
+
+}
+
+.se1,.se2,.se3,.se4,.se4,.se5,.se6,.se7
+{
+margin:2px;
+text-align:center;
+border:none;
+background:none;
+background-color:#0080ff;
+color:white;
+font-family:Agency FB;
+font-size:20px;
+}
+
+#d1
+{
+
+background-image:url("Images/fkim.png");
+background-repeat:no-repeat;
+background-size:1600px 350px;
+width:100%;
+height:400px;
+animation-name:pic;
+animation-duration:30s;
+animation-delay:2s;
+position:relative;
+animation-iteration-count:infinite;
+animation-direction:forward;
+margin-top:30px;
+margin-bottom:30px;
+}
+@keyframes pic
+{
+0%
+{
+background-image:url("Images/fkim2.jpeg");
+background-size:1600px 350px;
+top:0px;left:0px;
+}
+25%
+{
+background-image:url("Images/fkim3.jpeg");
+background-size:1600px 350px;
+top:0px;left:0px;
+}
+50%{
+background-image:url("Images/fkim4.jpeg");
+background-size:1600px 350px;
+top:0px;left:0px;
+}
+75%
+{
+background-image:url("Images/fkim5.jpeg");
+background-size:1600px 350px;
+top:0px;left:0px;
+}
+100%
+{
+background-image:url("Images/fkim5.jpeg");
+background-size:1600px 350px;
+top:0px;left:0px;
+}
+}
+
+#d2
+{
+display:grid;
+grid-template-columns:auto auto auto auto auto;
+}
+
+.di1,.di2,.di3,.di5,.di5
+{
+text-align:center;
+}
+h6
+{
+font-size:13px;
+}
+
+.p1,.p2,.p3,.p4,.p5
+{
+color:green;
+}
+</style>
+
+</head>
+
+<body>
+<header>
+<nav class="na1">
+<h1 class="he1">Flipkart</h1>
+<img src="Images/fklogo.png" id="im1">
+</nav>
+<nav class="na2">
+<input type="search" value="Search for Products,Brands and More," class="i1">
+<input type="button" value="CART"  class="i2">
+
+</nav>
+<nav class="na3">
+<select class="se1">
+<option>Electronics</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se2">
+<option>Applience</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se3">
+<option>Men</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se4">
+<option>Woman</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se5">
+<option>Baby&Kids</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se6">
+<option>Home&Furniture</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+<select class="se7">
+<option>Offer Zone</option>
+<option>Laptop</option>
+<option>Televison</option>
+<option>Bluetooth Headphone</option>
+</select>
+</nav>
+
+</header>
+
+<div id="d1">
+
+</div>
+
+<div id="d2">
+<div class="di1">
+<figure>
+<img src="Images/flipkart1.png">
+<figcaption>
+<h6>Health Supplements</h6>
+<p class="p1">10-50% Off</p>
+<p>ON,MuscleBlaze&More</p>
+</figcaption>
+</figure>
+</div>
+
+<div class="di2">
+<figure>
+<img src="Images/flipkart2.png">
+<figcaption>
+<h6>Festive Collection</h6>
+<p class="p2">Min 60% Off</p>
+<p>Saree,Kurtis&More</p>
+</figcaption>
+</figure>
+</div>
+
+<div class="di3">
+<figure>
+<img src="Images/flipkart3.png">
+<figcaption>
+<h6>Trimmer</h6>
+<p class="p3">Just ₹340</p>
+<p>From Nova</p>
+</figcaption>
+</figure>
+</div>
+
+<div class="di4">
+<figure>
+<img src="Images/flipkart4.png">
+<figcaption>
+<h6>At Never Before Price</h6>
+<p class="p4">Upto 60% Off</p>
+<p>Camera&Accessories</p>
+</figcaption>
+</figure>
+</div>
+
+<div class="di5">
+<figure>
+<img src="Images/flipkart5.png">
+<figcaption>
+<h6>Container&Lunch Boxes</h6>
+<p class="p5">Under ₹299</p>
+<p>Bel Casa&More</p>
+</figcaption>
+</figure>
+</div>
+
+</div>
+
+</body>
+</html>
